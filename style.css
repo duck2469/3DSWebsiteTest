@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-    background-color: rgb(247 166 166);  /* Background-Color sets the background color of an element */
+    background-color: rgb(184 179 179);  /* Background-Color sets the background color of an element */
 }
 
 /* things with . affect classes. they affect html tags that have class="" inside of them, like this: <body class="namehere"> */
@@ -72,12 +72,11 @@ body {
     height: 20px; /* height sets the height */
     top: 0; /* top sets the top position */
     width: 100%; /* width: 100% makes this fill the screen */
-    background-color: rgb(137, 3, 3);  /* Background-Color sets the background color of an element */
-    background: linear-gradient(rgb(137, 3, 3),rgb(56, 1, 1)); /* Background can also set the background color of an element, but can do way more. I use it here for just in case browser don't support linear-gradient */
+    background-color: rgb(0 0 0);  /* Background-Color sets the background color of an element */
+    background: linear-gradient(rgb(100 100 100),rgb(59 59 59)); /* Background can also set the background color of an element, but can do way more. I use it here for just in case browser don't support linear-gradient */
     padding: 10px; /* Padding is the area inside of the box that is padded */
     box-shadow: 0 0 15px 0 rgb(0 0 0 / 35%); /* box-shadow makes a drop shadow. confusing */
     display: table-cell; /* Changes the way how elemnts are organised */
-    text-align: center;
 }
 
 /* things with . affect classes, but if you add a space, that allows you to customise the childs of a class/element only. */
